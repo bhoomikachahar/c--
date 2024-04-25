@@ -163,76 +163,69 @@
 //     return 0;
 // }
 
+// #include <iostream>
+// using namespace std;
 
+// int main()
+// {
 
+//   int num[8];
+//   int size = 8;
+//   int start = 0;
+//   int end = size - 1;
 
-#include <iostream>
-using namespace std;
+//   cout << "Enter 8 numbers:\n";
+//   for (int i = 0; i < size; ++i)
+//   {
+//     cout << "Enter number " << i + 1 << ": ";
+//     cin >> num[i];
+//   }
 
-int main()
-{
+//   while (true)
+//   {
+//     if (start > end)
+//     {
+//       break;
+//     }
+//     else
+//     {
+//       cout << num[start] << " ";
+//       cout << num[end] << " ";
+//       start++;
+//       end--;
+//     }
+//   }
 
-    int num[8];
-    int size = 8;
-    int start = 0;
-    int end = size - 1;
+//   return 0;
+// }
 
-    cout << "Enter 8 numbers:\n";
-    for (int i = 0; i < size; ++i)
-    {
-        cout << "Enter number " << i + 1 << ": ";
-        cin >> num[i];
-    }
+// #include <iostream>
+// using namespace std;
 
-    while (true)
-    {
-        if (start > end)
-        {
-            break;
-        }
-        else
-        {
-            cout << num[start] << " ";
-            cout << num[end] << " ";
-            start++;
-            end--;
-        }
-    }
+// #include <iostream>
+// using namespace std;
 
-    return 0;
-}
+// int main()
+// {
 
+//   int num[8] = {1, 2, 3, 4, 5, 6, 7, 8};
 
+//   int size = 8;
+//   int start = 0;
+//   int end = size - 1;
 
-#include <iostream>
-using namespace std;
-
-
-
-#include <iostream>
-using namespace std ;
-
-int main(){
-
-  int num[8] = {1,2,3,4,5,6,7,8};
-
-  int size = 8;
-  int start = 0;
-  int end = size - 1;
-
-  
-  while(true){
-    if(start>end){
-      break;
-    }
-  else{
-    cout<<num[start];
-    cout<<num[end];
-    start++;
-    end--;
-    }
-  }
-
-  
-
-}
+//   while (true)
+//   {
+//     if (start > end)
+//     {
+//       break;
+//     }
+//     else
+//     {
+//       cout << num[start];
+//       cout << num[end];
+//       start++;
+//       end--;
+//     }
+//   }
+// }
