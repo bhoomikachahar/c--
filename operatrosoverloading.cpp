@@ -1,4 +1,3 @@
-poin
 
 // Operator overloading->
 // Operator overloading is a compile-time polymorphism in which the operator is overloaded to provide special meaning to the user-defined data type. Operator overloading is used to overload or redefine most of the operators available in C++. It is used to perform the operation on the user-defined data type.
@@ -77,4 +76,3 @@ poin
 //     obj2.value = 20;
 //     obj1 + obj2;
 // }
-
