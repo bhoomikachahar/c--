@@ -205,11 +205,24 @@
 // #include <iostream>
 // using namespace std;
 
-// int main()
-// {
+#include <iostream>
+using namespace std;
+int main()
+{
+    int row = 10;
+
+    for (int i = 0; i < row; i++)
+    {
+
+        for (int j = 0; j <= row; j++)
+        {
+            cout << "*";
+        }
+        cout << "\n";
+    }
+}
 
 //   int num[8] = {1, 2, 3, 4, 5, 6, 7, 8};
-
 //   int size = 8;
 //   int start = 0;
 //   int end = size - 1;
@@ -228,4 +241,3 @@
 //       end--;
 //     }
 //   }
-// }
